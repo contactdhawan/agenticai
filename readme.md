@@ -15,4 +15,4 @@ Different types of design patterns :-
 2. Routing :- You have a router and then that router will make use of different LLMs based on requirement.
 3. Parallelization :- Here you write a code that divide the task into multiple tasks to process in parallel by different LLMs and the a aggregator code merge them into one.
 4. Orchestrator-Worker :- You use a LLM that divide a complex task into multiple tasks and then use another LLM to aggregate these tasks into one output.
-5. 
+5. Evaluator Optimizer :- you use two LLMs, one to generte result, second LLM evaluate result and if result is correct pass it as output otherwise send back to generator LLM.
